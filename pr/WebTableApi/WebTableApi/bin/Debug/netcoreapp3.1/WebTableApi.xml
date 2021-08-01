@@ -1,0 +1,72 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>WebTableApi</name>
+    </assembly>
+    <members>
+        <member name="T:WebTableApi.Controllers.ByteController">
+            <summary>
+            Этот контроллер позволяет управлять данными сохраняя, получая, удаляя и обновляя их в базе данных
+            </summary>
+        </member>
+        <member name="M:WebTableApi.Controllers.ByteController.Get">
+            <summary>
+            Этот метод позволяет получить данные из базы данных
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:WebTableApi.Controllers.ByteController.Post(WebTableApi.Models.Byte)">
+            <summary>
+            Этот метод позволяет сохранить данные в базе данных
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:WebTableApi.Controllers.ByteController.Put(WebTableApi.Models.Byte)">
+            <summary>
+            Этот метод позволяет обновить данные в базе данных
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:WebTableApi.Controllers.ByteController.Delete(System.Int32)">
+            <summary>
+            Этот метод позволяет удалить данные из базы данных
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="T:WebTableApi.Controllers.ByteMultiplyController">
+            <summary>
+            Этот контроллер умножать байты добавляя результат в  базу данных
+            </summary>
+        </member>
+        <member name="M:WebTableApi.Controllers.ByteMultiplyController.Post(WebTableApi.Models.Byte)">
+            <summary>
+            Этот метод выполняет умножение и добавляет результат в базу данных
+            </summary>
+        </member>
+        <member name="T:WebTableApi.Controllers.ByteSumController">
+            <summary>
+            Этот контроллер скадывать байты добавляя результат в базу данных
+            </summary>
+        </member>
+        <member name="M:WebTableApi.Controllers.ByteSumController.Post(WebTableApi.Models.Byte)">
+            <summary>
+            Этот метод складывает байты добавляя результат в базу данных
+            </summary>
+        </member>
+        <member name="P:WebTableApi.Models.Byte.ByteId">
+            <summary>
+            Id байта в базе данных
+            </summary>
+        </member>
+        <member name="P:WebTableApi.Models.Byte.ByteBinNumber">
+            <summary>
+            Бмнарное число байта
+            </summary>
+        </member>
+        <member name="P:WebTableApi.Models.Byte.ByteDecNumber">
+            <summary>
+            Десятичное число байта
+            </summary>
+        </member>
+    </members>
+</doc>
