@@ -18,5 +18,5 @@ insert into dbo.Byte values
 ("111100","60")
 "
  
- 3)Запустите WebTableApi 
- 4)Откройте папку tableapp в редакторе кода и запустите с помощью команды "npm start".
+3)Запустите WebTableApi 
+4)Откройте папку tableapp в редакторе кода и запустите с помощью команды "npm start".
